@@ -266,49 +266,73 @@
         "aula1": [
             {
                 "time": "07:50",
+                "materia": "Algoritmos e Programação",
+                "sala": "Bloco 2 | Lab. Inf. 12",
+                "prof": "Alceu"
+            },
+            {
+                "time": "07:50",
                 "materia": "Banco de Dados",
-                "sala": "Bloco 5 | Sala 5",
+                "sala": "Bloco 2 | Lab. Inf. 09",
                 "prof": "Deborah"
             }
         ],
         "aula2": [
             {
                 "time": "08:35",
+                "materia": "Algoritmos e Programação",
+                "sala": "Bloco 2 | Lab. Inf. 12",
+                "prof": "Alceu"
+            },
+            {
+                "time": "08:35",
                 "materia": "Banco de Dados",
-                "sala": "Bloco 5 | Sala 5",
+                "sala": "Bloco 2 | Lab. Inf. 09",
                 "prof": "Deborah"
             }
         ],
         "aula3": [
             {
                 "time": "09:40",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "materia": "Banco de Dados",
+                "sala": "Bloco 2 | Lab. Inf. 09",
+                "prof": "Deborah"
+            },
+            {
+                "time": "09:40",
+                "materia": "Algoritmos e Programação",
+                "sala": "Bloco 2 | Lab. Inf. 12",
+                "prof": "Alceu"
             }
         ],
         "aula4": [
             {
                 "time": "10:25",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "materia": "Banco de Dados",
+                "sala": "Bloco 2 | Lab. Inf. 09",
+                "prof": "Deborah"
+            },
+            {
+                "time": "10:25",
+                "materia": "Algoritmos e Programação",
+                "sala": "Bloco 2 | Lab. Inf. 12",
+                "prof": "Alceu"
             }
         ],
         "aula5": [
             {
                 "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
+                "materia": "Tutoria de Jogos",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Angela"
+                "prof": ""
             }
         ],
         "aula6": [
             {
                 "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
+                "materia": "Tutoria de Jogos",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Angela"
+                "prof": ""
             }
         ]
     }
