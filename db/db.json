@@ -213,49 +213,49 @@
         "aula1": [
             {
                 "time": "07:50",
-                "materia": "Banco de Dados",
+                "materia": "Algoritmos e Programação",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Deborah"
+                "prof": "Alceu"
             }
         ],
         "aula2": [
             {
                 "time": "08:35",
-                "materia": "Banco de Dados",
+                "materia": "Algoritmos e Programação",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Deborah"
+                "prof": "Alceu"
             }
         ],
         "aula3": [
             {
                 "time": "09:40",
-                "materia": "Introdução ao Cálculo",
+                "materia": "Iniciação à Computação",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "prof": "Jacques Facon"
             }
         ],
         "aula4": [
             {
                 "time": "10:25",
-                "materia": "Introdução ao Cálculo",
+                "materia": "Iniciação à Computação",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "prof": "Jacques Facon"
             }
         ],
         "aula5": [
             {
                 "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
+                "materia": "Leitura e Produção de Textos Acadêmicos",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Angela"
+                "prof": "Fabiana"
             }
         ],
         "aula6": [
             {
                 "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
+                "materia": "Leitura e Produção de Textos Acadêmicos",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Angela"
+                "prof": "Fabiana"
             }
         ]
     },
