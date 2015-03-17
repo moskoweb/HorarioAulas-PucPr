@@ -24,7 +24,7 @@
                 "time": "09:40",
                 "materia": "Introdução ao Cálculo",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "prof": "Gil Marcos"
             }
         ],
         "aula4": [
@@ -32,7 +32,7 @@
                 "time": "10:25",
                 "materia": "Introdução ao Cálculo",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "prof": "Gil Marcos"
             }
         ],
         "aula5": [
@@ -136,48 +136,72 @@
         "aula1": [
             {
                 "time": "07:50",
-                "materia": "Banco de Dados",
+                "materia": "Introdução ao Cálculo",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Deborah"
+                "prof": "Gil Marcos"
             }
         ],
         "aula2": [
             {
                 "time": "08:35",
-                "materia": "Banco de Dados",
+                "materia": "Introdução ao Cálculo",
                 "sala": "Bloco 5 | Sala 5",
-                "prof": "Deborah"
+                "prof": "Gil Marcos"
             }
         ],
         "aula3": [
             {
                 "time": "09:40",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "materia": "Fundamentos de Eletricidade e Óptica",
+                "sala": "Bloco 2 | Lab. Fis. 05",
+                "prof": "Angela"
+            },
+            {
+                "time": "09:40",
+                "materia": "Sistemas Multimídia",
+                "sala": "Bloco 2 | Lab. Inf. 09",
+                "prof": "Anderson"
             }
         ],
         "aula4": [
             {
                 "time": "10:25",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Marcos"
+                "materia": "Fundamentos de Eletricidade e Óptica",
+                "sala": "Bloco 2 | Lab. Fis. 05",
+                "prof": "Angela"
+            },
+            {
+                "time": "10:25",
+                "materia": "Sistemas Multimídia",
+                "sala": "Bloco 2 | Lab. Inf. 09",
+                "prof": "Anderson"
             }
         ],
         "aula5": [
             {
                 "time": "11:10",
+                "materia": "Sistemas Multimídia",
+                "sala": "Bloco 2 | Lab. Inf. 09",
+                "prof": "Anderson"
+            },
+            {
+                "time": "11:10",
                 "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 5 | Sala 5",
+                "sala": "Bloco 2 | Lab. Fis. 05",
                 "prof": "Angela"
             }
         ],
         "aula6": [
             {
                 "time": "11:10",
+                "materia": "Sistemas Multimídia",
+                "sala": "Bloco 2 | Lab. Inf. 09",
+                "prof": "Anderson"
+            },
+            {
+                "time": "11:10",
                 "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 5 | Sala 5",
+                "sala": "Bloco 2 | Lab. Fis. 05",
                 "prof": "Angela"
             }
         ]
