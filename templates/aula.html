@@ -6,7 +6,7 @@
 <div class="content full">
     <input type="text" ng-model="searchId" value="{{post.id}}">
     <div ng-repeat="post in posts | filter:searchId">
-        <h3>Aulas {{ post.title }}</h3>
+        <h3>Aulas de {{ post.title }}</h3>
         <p class="t_center">{{ post.subtitle }}</p>
         <br>
         <div class="list">
