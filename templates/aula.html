@@ -1,0 +1,66 @@
+<div class="bar bar-header">
+  <a href="/#/semana/" class="button button-icon icon ion-ios-arrow-back"></a>
+  <div class="h1 title">Ciência da Computação</div>
+</div>
+
+<div class="content full">
+    <input type="text" ng-model="searchId" value="{{post.id}}">
+    <div ng-repeat="post in posts | filter:searchId">
+        <h3>Aulas {{ post.title }}</h3>
+        <p class="t_center">{{ post.subtitle }}</p>
+        <br>
+        <div class="list">
+            <div class="item item-divider">
+                <i class="icon ion-clock"></i> <b>{{ post.aula1[0].time }}</b>
+            </div>
+            <div class="item">
+                <strong>{{ post.aula1[0].materia }}</strong>
+                <hr>
+                <small>{{ post.aula1[0].sala }} | Com Prof. {{ post.aula1[0].prof }}</small>
+            </div>
+            <div class="item item-divider">
+                <i class="icon ion-clock"></i> <b>{{ post.aula2[0].time }}</b>
+            </div>
+            <div class="item">
+                <strong>{{ post.aula2[0].materia }}</strong>
+                <hr>
+                <small>{{ post.aula2[0].sala }} | Com Prof. {{ post.aula2[0].prof }}</small>
+            </div>
+            <div class="item item-divider">
+                <i class="icon ion-clock"></i> <b>{{ post.aula3[0].time }}</b>
+            </div>
+            <div class="item">
+                <strong>{{ post.aula3[0].materia }}</strong>
+                <hr>
+                <small>{{ post.aula3[0].sala }} | Com Prof. {{ post.aula3[0].prof }}</small>
+            </div>
+            <div class="item item-divider">
+                <i class="icon ion-clock"></i> <b>{{ post.aula4[0].time }}</b>
+            </div>
+            <div class="item">
+                <strong>{{ post.aula4[0].materia }}</strong>
+                <hr>
+                <small>{{ post.aula4[0].sala }} | Com Prof. {{ post.aula4[0].prof }}</small>
+            </div>
+            <div class="item item-divider">
+                <i class="icon ion-clock"></i> <b>{{ post.aula5[0].time }}</b>
+            </div>
+            <div class="item">
+                <strong>{{ post.aula5[0].materia }}</strong>
+                <hr>
+                <small>{{ post.aula5[0].sala }} | Com Prof. {{ post.aula5[0].prof }}</small>
+            </div>
+            <div class="item item-divider">
+                <i class="icon ion-clock"></i> <b>{{ post.aula6[0].time }}</b>
+            </div>
+            <div class="item">
+                <strong>{{ post.aula6[0].materia }}</strong>
+                <hr>
+                <small>{{ post.aula6[0].sala }} | Com Prof. {{ post.aula6[0].prof }}</small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bar bar-footer bar-light">
+  <div class="title">Desenvolvido por <a href="http://fb.com/AlanWebD" target="_system">Alan Mosko</a> e <a href="http://fb.com/lucca54">Lucca Portes</a></div>
+</div>

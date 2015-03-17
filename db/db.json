@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "title": "Segunda-Feira",
+        "subtitle": "O jeito é começar a estudar.",
+        "aula1": [
+            {
+                "time": "07:50",
+                "materia": "Banco de Dados",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Deborah"
+            }
+        ],
+        "aula2": [
+            {
+                "time": "08:35",
+                "materia": "Banco de Dados",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Deborah"
+            }
+        ],
+        "aula3": [
+            {
+                "time": "09:40",
+                "materia": "Introdução ao Cálculo",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Marcos"
+            }
+        ],
+        "aula4": [
+            {
+                "time": "10:25",
+                "materia": "Introdução ao Cálculo",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Marcos"
+            }
+        ],
+        "aula5": [
+            {
+                "time": "11:10",
+                "materia": "Fundamentos de Eletricidade e Óptica",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Angela"
+            }
+        ],
+        "aula6": [
+            {
+                "time": "11:10",
+                "materia": "Fundamentos de Eletricidade e Óptica",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Angela"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Terça-Feira",
+        "subtitle": "Pegue um energético que tem aula.",
+        "aula1": [
+            {
+                "time": "07:50",
+                "materia": "Sistemas Multimídia",
+                "sala": "Bloco 2 | lab Inf. 09",
+                "prof": "Anderson"
+            }
+        ],
+        "aula2": [
+            {
+                "time": "08:35",
+                "materia": "Banco de Dados",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Deborah"
+            }
+        ],
+        "aula3": [
+            {
+                "time": "09:40",
+                "materia": "Introdução ao Cálculo",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Marcos"
+            }
+        ],
+        "aula4": [
+            {
+                "time": "10:25",
+                "materia": "Introdução ao Cálculo",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Marcos"
+            }
+        ],
+        "aula5": [
+            {
+                "time": "11:10",
+                "materia": "Fundamentos de Eletricidade e Óptica",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Angela"
+            }
+        ],
+        "aula6": [
+            {
+                "time": "11:10",
+                "materia": "Fundamentos de Eletricidade e Óptica",
+                "sala": "Bloco 5 | Sala 5",
+                "prof": "Angela"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Quarta-Feira",
+        "subtitle": "Bora que já estamos no meio do caminho."
+    },
+    {
+        "id": 4,
+        "title": "Quinta-Feira",
+        "subtitle": "Ta chegando o fim de semana, aguenta ae."
+    },
+    {
+        "id": 5,
+        "title": "Sexta-Feira",
+        "subtitle": "Só mais hoje e está livre."
+    }
+]

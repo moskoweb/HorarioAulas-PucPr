@@ -1,0 +1,19 @@
+<div class="bar bar-header">
+  <a href="/#/" class="button button-icon icon ion-ios-arrow-back"></a>
+  <div class="h1 title">Ciência da Computação</div>
+</div>
+<div class="content full" ng-controller="AulaCtrl">
+    <h3>Que Dia da Semana é Hoje?</h3>
+    <div class="list">
+        <div ng-repeat="post in posts">
+            <a class="item item-icon-right" href="#/aula/{{ post.id }}">
+                <h2>{{ post.title }}</h2>
+                <p>{{ post.subtitle }}</p>
+                <i class="icon ion-chevron-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="bar bar-footer bar-light">
+  <div class="title">Desenvolvido por <a href="http://fb.com/AlanWebD" target="_system">Alan Mosko</a> e <a href="http://fb.com/lucca54">Lucca Portes</a></div>
+</div>

@@ -1,0 +1,37 @@
+html, body {
+  overflow: visible;
+  overflow-x: hidden;
+}
+.bar-footer {
+  position: fixed;
+}
+.content {
+  width: 90%;
+  margin: 50px auto;
+}
+.content.full {
+  width: 100% !important;
+}
+h1, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.t_left{
+  text-align: left;
+}
+.t_right{
+  text-align: right;
+}
+.t_center {
+  text-align: center;
+}
+.list b {
+  color: #e74c3c;
+}
+.aula_lab {
+  width: 50.5%;
+  float: left;
+}
+.bar.bar-light .title {
+  font-size: 1em;
+}
