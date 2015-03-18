@@ -7,7 +7,7 @@ App.config(function ($routeProvider) {
     templateUrl: 'templates/home.html',
     controller: 'HomeCtrl'
   })
-  .when('/semana', {
+  .when('/semana/', {
     templateUrl: 'templates/semana.html',
     controller: 'SemanaCtrl'
   })
@@ -15,7 +15,7 @@ App.config(function ($routeProvider) {
     templateUrl: 'templates/aula.html',
     controller: 'AulaCtrl'
   })
-  .when('/sobre', {
+  .when('/sobre/', {
     templateUrl: 'templates/sobre.html',
     controller: 'SobreCtrl'
   })
@@ -23,6 +23,7 @@ App.config(function ($routeProvider) {
 
 })
 
+// Controller de Rota
 App.controller('HomeCtrl', function($rootScope, $location) {
    $rootScope.activetab = $location.path();
 });
@@ -34,6 +35,15 @@ App.controller('SobreCtrl', function($rootScope, $location) {
 });
 App.controller('SemanaCtrl', function($rootScope, $location) {
    $rootScope.activetab = $location.path();
+});
+// Fim Rotas
+
+App.controller('AulaCtrl', function($scope, $filter, $routeParams, AulaCtrl) {
+  var myfilter = $filter;
+
+  $scope.posts =myfilter('filter')(data,{
+    id: $routeParams.id
+  })[0];
 });
 
 // Faz Leitura do JSON
