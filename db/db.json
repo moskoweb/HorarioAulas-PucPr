@@ -45,7 +45,7 @@
         ],
         "aula6": [
             {
-                "time": "11:10",
+                "time": "11:55",
                 "materia": "Fundamentos de Eletricidade e Óptica",
                 "sala": "Bloco 5 | Sala 5",
                 "prof": "Angela"
@@ -61,13 +61,15 @@
                 "time": "07:50",
                 "materia": "Sistemas Multimídia",
                 "sala": "Bloco 2 | lab Inf. 09",
-                "prof": "Anderson"
+                "prof": "Anderson",
+                "turma": "1"
             },
             {
                 "time": "07:50",
                 "materia": "Iniciação à Computação",
                 "sala": "Bloco 2 | lab Inf. 11",
-                "prof": "Jacques Facon"
+                "prof": "Jacques Facon",
+                "turma": "2"
             }
         ],
         "aula2": [
@@ -122,8 +124,8 @@
         ],
         "aula6": [
             {
-                "time": "11:10",
-                "materia": "FLeitura e Produção de Textos Acadêmicos",
+                "time": "11:55",
+                "materia": "Leitura e Produção de Textos Acadêmicos",
                 "sala": "Bloco 5 | Sala 5",
                 "prof": "Fabiana"
             }
@@ -193,7 +195,7 @@
         ],
         "aula6": [
             {
-                "time": "11:10",
+                "time": "11:55",
                 "materia": "Sistemas Multimídia",
                 "sala": "Bloco 2 | Lab. Inf. 09",
                 "prof": "Anderson"
@@ -252,7 +254,7 @@
         ],
         "aula6": [
             {
-                "time": "11:10",
+                "time": "11:55",
                 "materia": "Leitura e Produção de Textos Acadêmicos",
                 "sala": "Bloco 5 | Sala 5",
                 "prof": "Fabiana"
@@ -329,7 +331,7 @@
         ],
         "aula6": [
             {
-                "time": "11:10",
+                "time": "11:55",
                 "materia": "Tutoria de Jogos",
                 "sala": "Bloco 5 | Sala 5",
                 "prof": ""
