@@ -20,7 +20,7 @@ App.controller('AulaCtrl', function($scope, $filter, $routeParams, Aulas) {
   var id = $routeParams.id;
   Aulas.getId(id, function(data){
       $scope.profile = data;    
-  });  
+  });     
 });
 
 // Fim Leitura do JSON
