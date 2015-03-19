@@ -12,8 +12,8 @@
                 <div class="item item-divider">
                     <i class="icon ion-clock"></i> <b>{{ aula.time }}</b>
                 </div>
-                <div class="item">
-                    <strong>{{ aula.materia }}</strong>
+                <div class="item" ng-repeat="materia in profile.aulas.materias">
+                    <strong>{{ materia.nome }}</strong>
                     <hr>
                     <small>{{ aula.sala }} | Com Prof. {{ aula.prof }}</small>
                 </div>

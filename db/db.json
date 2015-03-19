@@ -1,297 +1,421 @@
 [
-    {
-        "id": 1,
-        "title": "Segunda-Feira",
-        "subtitle": "O jeito é começar a estudar.",
-        "aulas": [
-            {
-                "time": "07:50",
-                "materia": "Banco de Dados",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Deborah"
-            },
-            {
-                "time": "08:35",
-                "materia": "Banco de Dados",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Deborah"
-            },
-            {
-                "time": "09:40",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Gil Marcos"
-            },
-            {
-                "time": "10:25",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Gil Marcos"
-            },
-            {
-                "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Angela"
-            },
-            {
-                "time": "11:55",
-                "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Angela"
-            }
+  {
+    "id": 1,
+    "title": "Segunda-Feira",
+    "subtitle": "O jeito é começar a estudar.",
+    "aulas": [
+      {
+        "time": "07:50",
+        "materias": [
+          {
+            "nome": "Banco de Dados",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Deborah"
+          }
         ]
-    },
-    {
-        "id": 2,
-        "title": "Terça-Feira",
-        "subtitle": "Pegue um energético que tem aula.",
-        "aulas": [
-            {
-                "time": "07:50",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | lab Inf. 09",
-                "prof": "Anderson",
-                "turma": "1"
-            },
-            {
-                "time": "07:50",
-                "materia": "Iniciação à Computação",
-                "sala": "Bloco 2 | lab Inf. 11",
-                "prof": "Jacques Facon",
-                "turma": "2"
-            },
-            {
-                "time": "08:35",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | lab Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "08:35",
-                "materia": "Iniciação à Computação",
-                "sala": "Bloco 2 | lab Inf. 11",
-                "prof": "Jacques Facon"
-            },
-            {
-                "time": "09:40",
-                "materia": "Iniciação à Computação",
-                "sala": "Bloco 2 | lab Inf. 11",
-                "prof": "Jacques Facon"
-            },
-            {
-                "time": "09:40",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | lab Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "10:25",
-                "materia": "Iniciação à Computação",
-                "sala": "Bloco 2 | lab Inf. 11",
-                "prof": "Jacques Facon"
-            },
-            {
-                "time": "10:25",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | lab Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "11:10",
-                "materia": "Leitura e Produção de Textos Acadêmicos",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Fabiana"
-            }
-        ],
-        "aula6": [
-            {
-                "time": "11:55",
-                "materia": "Leitura e Produção de Textos Acadêmicos",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Fabiana"
-            }
+      },
+      {
+        "time": "08:35",
+        "materias": [
+          {
+            "nome": "Banco de Dados",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Deborah"
+          }
         ]
-    },
-    {
-        "id": 3,
-        "title": "Quarta-Feira",
-        "subtitle": "Bora que já estamos no meio do caminho.",
-        "aulas": [
-            {
-                "time": "07:50",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Gil Marcos"
-            },
-            {
-                "time": "08:35",
-                "materia": "Introdução ao Cálculo",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Gil Marcos"
-            },
-            {
-                "time": "09:40",
-                "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 2 | Lab. Fis. 05",
-                "prof": "Angela"
-            },
-            {
-                "time": "09:40",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "10:25",
-                "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 2 | Lab. Fis. 05",
-                "prof": "Angela"
-            },
-            {
-                "time": "10:25",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "11:10",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 2 | Lab. Fis. 05",
-                "prof": "Angela"
-            }
-        ],
-        "aula6": [
-            {
-                "time": "11:55",
-                "materia": "Sistemas Multimídia",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Anderson"
-            },
-            {
-                "time": "11:10",
-                "materia": "Fundamentos de Eletricidade e Óptica",
-                "sala": "Bloco 2 | Lab. Fis. 05",
-                "prof": "Angela"
-            }
+      },
+      {
+        "time": "09:40",
+        "materias": [
+          {
+            "nome": "Introdução ao Cálculo",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Gil Marcos"
+          }
         ]
-    },
-    {
-        "id": 4,
-        "title": "Quinta-Feira",
-        "subtitle": "Ta chegando o fim de semana, aguenta ae.",
-        "aulas": [
-            {
-                "time": "07:50",
-                "materia": "Algoritmos e Programação",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Alceu"
-            },
-            {
-                "time": "08:35",
-                "materia": "Algoritmos e Programação",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Alceu"
-            },
-            {
-                "time": "09:40",
-                "materia": "Iniciação à Computação",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Jacques Facon"
-            },
-            {
-                "time": "10:25",
-                "materia": "Iniciação à Computação",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Jacques Facon"
-            },
-            {
-                "time": "11:10",
-                "materia": "Leitura e Produção de Textos Acadêmicos",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Fabiana"
-            }
-        ],
-        "aula6": [
-            {
-                "time": "11:55",
-                "materia": "Leitura e Produção de Textos Acadêmicos",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": "Fabiana"
-            }
+      },
+      {
+        "time": "10:25",
+        "materias": [
+          {
+            "nome": "Introdução ao Cálculo",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Gil Marcos"
+          }
         ]
-    },
-    {
-        "id": 5,
-        "title": "Sexta-Feira",
-        "subtitle": "Só mais hoje e está livre.",
-        "aulas": [
-            {
-                "time": "07:50",
-                "materia": "Algoritmos e Programação",
-                "sala": "Bloco 2 | Lab. Inf. 12",
-                "prof": "Alceu"
-            },
-            {
-                "time": "07:50",
-                "materia": "Banco de Dados",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Deborah"
-            },
-            {
-                "time": "08:35",
-                "materia": "Algoritmos e Programação",
-                "sala": "Bloco 2 | Lab. Inf. 12",
-                "prof": "Alceu"
-            },
-            {
-                "time": "08:35",
-                "materia": "Banco de Dados",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Deborah"
-            },
-            {
-                "time": "09:40",
-                "materia": "Banco de Dados",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Deborah"
-            },
-            {
-                "time": "09:40",
-                "materia": "Algoritmos e Programação",
-                "sala": "Bloco 2 | Lab. Inf. 12",
-                "prof": "Alceu"
-            },
-            {
-                "time": "10:25",
-                "materia": "Banco de Dados",
-                "sala": "Bloco 2 | Lab. Inf. 09",
-                "prof": "Deborah"
-            },
-            {
-                "time": "10:25",
-                "materia": "Algoritmos e Programação",
-                "sala": "Bloco 2 | Lab. Inf. 12",
-                "prof": "Alceu"
-            },
-            {
-                "time": "11:10",
-                "materia": "Tutoria de Jogos",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": ""
-            },
-            {
-                "time": "11:55",
-                "materia": "Tutoria de Jogos",
-                "sala": "Bloco 5 | Sala 5",
-                "prof": ""
-            }
+      },
+      {
+        "time": "11:10",
+        "materias": [
+          {
+            "nome": "Fundamentos de Eletricidade e Óptica",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Angela"
+          }
         ]
-    }
+      },
+      {
+        "time": "11:55",
+        "materias": [
+          {
+            "nome": "Fundamentos de Eletricidade e Óptica",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Angela"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Terça-Feira",
+    "subtitle": "Pegue um energético que tem aula.",
+    "aulas": [
+      {
+        "time": "07:50",
+        "materias": [
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | lab Inf. 09",
+            "prof": "Anderson",
+            "turma": "1"
+          },
+          {
+            "nome": "Iniciação à Computação",
+            "sala": "Bloco 2 | lab Inf. 11",
+            "prof": "Jacques Facon",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "08:35",
+        "materias": [
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | lab Inf. 09",
+            "prof": "Anderson",
+            "turma": "1"
+          },
+          {
+            "nome": "Iniciação à Computação",
+            "sala": "Bloco 2 | lab Inf. 11",
+            "prof": "Jacques Facon",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "09:40",
+        "materias": [
+          {
+            "nome": "Iniciação à Computação",
+            "sala": "Bloco 2 | lab Inf. 11",
+            "prof": "Jacques Facon",
+            "turma": "1"
+          },
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | lab Inf. 09",
+            "prof": "Anderson",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "10:25",
+        "materias": [
+          {
+            "nome": "Iniciação à Computação",
+            "sala": "Bloco 2 | lab Inf. 11",
+            "prof": "Jacques Facon",
+            "turma": "1"
+          },
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | lab Inf. 09",
+            "prof": "Anderson",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "11:10",
+        "materias": [
+          {
+            "nome": "Leitura e Produção de Textos Acadêmicos",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Fabiana"
+          }
+        ]
+      },
+      {
+        "time": "11:55",
+        "materias": [
+          {
+            "nome": "Leitura e Produção de Textos Acadêmicos",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Fabiana"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Quarta-Feira",
+    "subtitle": "Bora que já estamos no meio do caminho.",
+    "aulas": [
+      {
+        "time": "07:50",
+        "materias": [
+          {
+            "nome": "Introdução ao Cálculo",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Gil Marcos"
+          }
+        ]
+      },
+      {
+        "time": "08:35",
+        "materias": [
+          {
+            "nome": "Introdução ao Cálculo",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Gil Marcos"
+          }
+        ]
+      },
+      {
+        "time": "09:40",
+        "materias": [
+          {
+            "nome": "Fundamentos de Eletricidade e Óptica",
+            "sala": "Bloco 2 | Lab. Fis. 05",
+            "prof": "Angela",
+            "turma": "1"
+          },
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Anderson",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "10:25",
+        "materias": [
+          {
+            "nome": "Fundamentos de Eletricidade e Óptica",
+            "sala": "Bloco 2 | Lab. Fis. 05",
+            "prof": "Angela",
+            "turma": "1"
+          },
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Anderson",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "11:10",
+        "materias": [
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Anderson",
+            "turma": "1"
+          },
+          {
+            "nome": "Fundamentos de Eletricidade e Óptica",
+            "sala": "Bloco 2 | Lab. Fis. 05",
+            "prof": "Angela",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "11:55",
+        "materias": [
+          {
+            "nome": "Sistemas Multimídia",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Anderson",
+            "turma": "2"
+          },
+          {
+            "nome": "Fundamentos de Eletricidade e Óptica",
+            "sala": "Bloco 2 | Lab. Fis. 05",
+            "prof": "Angela",
+            "turma": "2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Quinta-Feira",
+    "subtitle": "Ta chegando o fim de semana, aguenta ae.",
+    "aulas": [
+      {
+        "time": "07:50",
+        "materias": [
+          {
+            "nome": "Algoritmos e Programação",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Alceu"
+          }
+        ]
+      },
+      {
+        "time": "08:35",
+        "materias": [
+          {
+            "nome": "Algoritmos e Programação",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Alceu"
+          }
+        ]
+      },
+      {
+        "time": "09:40",
+        "materias": [
+          {
+            "nome": "Iniciação à Computação",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Jacques Facon"
+          }
+        ]
+      },
+      {
+        "time": "10:25",
+        "materias": [
+          {
+            "nome": "Iniciação à Computação",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Jacques Facon"
+          }
+        ]
+      },
+      {
+        "time": "11:10",
+        "materias": [
+          {
+            "nome": "Leitura e Produção de Textos Acadêmicos",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Fabiana"
+          }
+        ]
+      },
+      {
+        "time": "11:55",
+        "materias": [
+          {
+            "nome": "Leitura e Produção de Textos Acadêmicos",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": "Fabiana"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Sexta-Feira",
+    "subtitle": "Só mais hoje e está livre.",
+    "aulas": [
+      {
+        "time": "07:50",
+        "materias": [
+          {
+            "nome": "Algoritmos e Programação",
+            "sala": "Bloco 2 | Lab. Inf. 12",
+            "prof": "Alceu",
+            "turma": "1"
+          },
+          {
+            "nome": "Banco de Dados",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Deborah",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "08:35",
+        "materias": [
+          {
+            "nome": "Algoritmos e Programação",
+            "sala": "Bloco 2 | Lab. Inf. 12",
+            "prof": "Alceu",
+            "turma": "1"
+          },
+          {
+            "nome": "Banco de Dados",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Deborah",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "09:40",
+        "materias": [
+          {
+            "nome": "Banco de Dados",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Deborah",
+            "turma": "1"
+          },
+          {
+            "nome": "Algoritmos e Programação",
+            "sala": "Bloco 2 | Lab. Inf. 12",
+            "prof": "Alceu",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "10:25",
+        "materias": [
+          {
+            "nome": "Banco de Dados",
+            "sala": "Bloco 2 | Lab. Inf. 09",
+            "prof": "Deborah",
+            "turma": "1"
+          },
+          {
+            "nome": "Algoritmos e Programação",
+            "sala": "Bloco 2 | Lab. Inf. 12",
+            "prof": "Alceu",
+            "turma": "2"
+          }
+        ]
+      },
+      {
+        "time": "11:10",
+        "materias": [
+          {
+            "nome": "Tutoria de Jogos",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": ""
+          }
+        ]
+      },
+      {
+        "time": "11:55",
+        "materias": [
+          {
+            "nome": "Tutoria de Jogos",
+            "sala": "Bloco 5 | Sala 5",
+            "prof": ""
+          }
+        ]
+      }
+    ]
+  }
 ]
