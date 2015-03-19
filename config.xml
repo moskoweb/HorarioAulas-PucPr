@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id = "br.com.vibesoft.vibevendas"
+    id = "br.com.alanmosko.qualaproximaaula"
     version = "0.0.1">
 
     <name>Qual a Próxima Aula?</name>
