@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <widget xmlns = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "br.com.alanmosko.qualaproximaaula"
-        versionCode="2.2"
-        version   = "0.9">
-        <name>Qual a Próxima Aula?</name>
-        <description>
-Aplicativo que tem como foco, ajudar os alunos que estão cursando Ciência da Computação na Puc-Pr, em saber Qual é a Próxima Aula?      </description>
-        <author href="http://alanmosko.com.br/" email="falecom@alanmosko.com.br">
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "br.com.alanmosko.qualaproximaaula"
+version = "0.0.1">
+<name>Qual a Próxima Aula?</name>
+<description>
+Aplicativo que tem como foco, ajudar os alunos que estão cursando Ciência da Computação na Puc-Pr, em saber Qual é a Próxima Aula?
+</description>
+<author href="http://alanmosko.com.br" email="falecom@alanmosko.com.br">
 Alan Mosko
-        </author>
-        <preference name="phonegap-version" value="3.7.0" />
-        <preference name="orientation" value="default" />
-        <preference name="fullscreen" value="false" />
-        <preference name="target-device" value="universal" />
-        <preference name="webviewbounce" value="true" />
-        <preference name="prerendered-icon" value="true" />
-        <preference name="stay-in-webview" value="true" />
-        <preference name="ios-statusbarstyle" value="default" />
-        <preference name="detect-data-types" value="true" />
-        <preference name="exit-on-suspend" value="false" />
-        <preference name="show-splash-screen-spinner" value="true" />
-        <preference name="auto-hide-splash-screen" value="true" />
-        <preference name="EnableViewportScale" value="true" />
-        <preference name="MediaPlaybackRequiresUserAction" value="false" />
-        <preference name="AllowInlineMediaPlayback" value="false" />
-        <preference name="BackupWebStorage" value="cloud" />
-        <preference name="TopActivityIndicator" value="gray" />
-        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
-        <preference name="HideKeyboardFormAccessoryBar" value="false" />
-        <preference name="SuppressesIncrementalRendering" value="false" />
-        <preference name="android-minSdkVersion" value="7" />
-        <preference name="android-installLocation" value="auto" />
-        <preference name="SplashScreenDelay" value="5000" />
-        <preference name="ErrorUrl" value=""/>
-        <preference name="BackgroundColor" value="0x000000"/>
-        <preference name="KeepRunning" value="true"/>
-        <preference name="DisallowOverscroll" value="false"/>
-        <preference name="LoadingDialog" value=","/>
-        <preference name="LoadUrlTimeoutValue" value="20000" />
-        <preference name="disable-cursor" value="false" />
-        <gap:platform name="ios" />
-        <gap:platform name="android" />
-        <gap:platform name="winphone" />
-        <icon src="img/logo_72.png" gap:platform="ios" width="72" height="72" />
-        <icon src="img/logo_144.png" gap:platform="ios" width="144" height="144" />
-        <icon src="img/logo_48.png" gap:platform="android" gap:density="mdpi" />
-        <icon src="img/logo_72.png" gap:platform="android" gap:density="hdpi" />
-        <icon src="img/logo_96.png" gap:platform="android" gap:density="xhdpi" />
-        <icon src="img/logo_144.png" gap:platform="android" gap:density="xxhdpi" />
-        <icon src="img/logo_192.png" gap:platform="android" gap:density="xxxhdpi" />
-    </widget>
+</author>
+
+<icon src="img/logo_72.png" gap:platform="ios" width="72" height="72" />
+<icon src="img/logo_144.png" gap:platform="ios" width="144" height="144" />
+<icon src="img/logo_48.png" gap:platform="android" gap:density="mdpi" />
+<icon src="img/logo_72.png" gap:platform="android" gap:density="hdpi" />
+<icon src="img/logo_96.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="img/logo_144.png" gap:platform="android" gap:density="xxhdpi" />
+<icon src="img/logo_192.png" gap:platform="android" gap:density="xxxhdpi" />
+<feature name="http://api.phonegap.com/1.0/device" />
+<feature name="Storage">
+<param name="android-package" value="org.apache.cordova.Storage" />
+</feature>
+    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+<preference name="android-installLocation" value="auto" />
+<!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
+</widget>
