@@ -13,7 +13,7 @@
                     <i class="icon ion-clock"></i> <b>{{ aula.time }}</b>
                 </div>
                 <div class="item" ng-repeat="materia in aula.materias">
-                    <small><i class='icon ion-person-stalker'></i> Turma: {{ materia.turma }} <br></small>
+                    <small ng-show="materia.turma"><i class='icon ion-person-stalker'></i> Turma: {{ materia.turma }} <br></small>
                     <strong>{{ materia.nome }}</strong>
                     <hr>
                     <small>{{ materia.sala }} | Com Prof. {{ materia.prof }}</small>
