@@ -23,7 +23,7 @@
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
-    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-minSdkVersion" value="7" />
     <preference name="android-targetSdkVersion" value="12" />
     <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
 </widget>
