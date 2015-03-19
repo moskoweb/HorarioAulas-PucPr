@@ -1,45 +1,3 @@
-var App = angular.module('App', ['ngRoute','ionic']);
-
-App.config(function ($routeProvider, $locationProvider) {
-
-  $routeProvider
-  .when('/', {
-    templateUrl: 'templates/home.html',
-    controller: 'HomeCtrl'
-  })
-  .when('/semana/', {
-    templateUrl: 'templates/semana.html',
-    controller: 'SemanaCtrl'
-  })
-  .when('/aula1', {
-    templateUrl: 'templates/aula1.html',
-    controller: 'AulaCtrl'
-  })
-  .when('/aula2', {
-    templateUrl: 'templates/aula2.html',
-    controller: 'AulaCtrl'
-  })
-  .when('/aula3', {
-    templateUrl: 'templates/aula3.html',
-    controller: 'AulaCtrl'
-  })
-  .when('/aula4', {
-    templateUrl: 'templates/aula4.html',
-    controller: 'AulaCtrl'
-  })
-  .when('/aula5', {
-    templateUrl: 'templates/aula5.html',
-    controller: 'AulaCtrl'
-  })
-  .when('/sobre/', {
-    templateUrl: 'templates/sobre.html',
-    controller: 'SobreCtrl'
-  })
-  .otherwise({ redirectTo: '/' });
-
-  $locationProvider.html5Mode(true);
-})
-
 // Controller de Rota
 App.controller('HomeCtrl', function($rootScope, $location) {
    $rootScope.activetab = $location.path();
@@ -50,29 +8,21 @@ App.controller('AulaCtrl', function($rootScope, $location) {
 App.controller('SobreCtrl', function($rootScope, $location) {
    $rootScope.activetab = $location.path();
 });
-App.controller('SemanaCtrl', function($rootScope, $location) {
-   $rootScope.activetab = $location.path();
-});
-// Fim Rotas
-
-App.controller('AulaCtrl', function($scope, $filter, $routeParams, AulaCtrl) {
-  var myfilter = $filter;
-
-  $scope.posts =myfilter('filter')(data,{
-    id: $routeParams.id
-  })[0];
+App.controller('SemanaCtrl', function($scope, $rootScope, $location, Aulas) {
+  Aulas.get().then(function(data){
+      $scope.posts = data.data;
+  });
+  $rootScope.activetab = $location.path();
 });
 
-// Faz Leitura do JSON
-App.controller("AulaCtrl", function($scope, $http) {
-  $http.get('../db/db.json').
-    success(function(data, status, headers, config) {
-      $scope.posts = data;
-    }).
-    error(function(data, status, headers, config) {
-      // log error
-    });
+App.controller('AulaCtrl', function($scope, $filter, $routeParams, Aulas) {
+  $scope.profile = {};
+  var id = $routeParams.id;
+  Aulas.getId(id, function(data){
+      $scope.profile = data;    
+  });  
 });
+
 // Fim Leitura do JSON
 
 // Diretivas
