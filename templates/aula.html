@@ -1,0 +1,25 @@
+<div class="bar bar-header">
+  <a href="/semana/" class="button button-icon icon ion-ios-arrow-back"></a>
+  <div class="h1 title">Ciência da Computação</div>
+</div>
+
+<div class="content full">
+        <h3>Aulas de {{ profile.title }}</h3>
+        <p class="t_center">{{ profile.subtitle }}</p>
+        <br>
+        <div class="list">
+            <div ng-repeat="aula in profile.aulas">
+                <div class="item item-divider">
+                    <i class="icon ion-clock"></i> <b>{{ aula.time }}</b>
+                </div>
+                <div class="item">
+                    <strong>{{ aula.materia }}</strong>
+                    <hr>
+                    <small>{{ aula.sala }} | Com Prof. {{ aula.prof }}</small>
+                </div>
+            </div>    
+        </div>
+</div>
+<div class="bar bar-footer bar-light">
+  <div class="title">Desenvolvido por <a href="http://fb.com/AlanWebD" target="_system">Alan Mosko</a> e <a href="http://fb.com/lucca54">Lucca Portes</a></div>
+</div>
