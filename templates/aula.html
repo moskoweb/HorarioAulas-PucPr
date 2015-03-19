@@ -12,10 +12,11 @@
                 <div class="item item-divider">
                     <i class="icon ion-clock"></i> <b>{{ aula.time }}</b>
                 </div>
-                <div class="item" ng-repeat="materia in profile.aulas.materias">
+                <div class="item" ng-repeat="materia in aula.materias">
+                    <small><i class='icon ion-person-stalker'></i> Turma: {{ materia.turma }} <br></small>
                     <strong>{{ materia.nome }}</strong>
                     <hr>
-                    <small>{{ aula.sala }} | Com Prof. {{ aula.prof }}</small>
+                    <small>{{ materia.sala }} | Com Prof. {{ materia.prof }}</small>
                 </div>
             </div>
         </div>
